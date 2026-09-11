@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#151515">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MY DAILY PAPER">
+<title>MY DAILY PAPER</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<style>
+html,body{margin:0;width:100%;height:100%;background:#f7f4ed;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+#paperFrame{width:100%;height:100%;border:0;display:block;background:#f7f4ed}
+#archiveBtn{position:fixed;z-index:1000;right:14px;top:14px;border:1px solid #151515;background:#fff;color:#151515;border-radius:999px;padding:9px 13px;font:inherit;box-shadow:0 4px 18px rgba(0,0,0,.12)}
+#archive{width:min(640px,calc(100% - 24px));border:0;border-radius:18px;padding:0;box-shadow:0 30px 90px rgba(0,0,0,.3)}
+#archive::backdrop{background:rgba(0,0,0,.45)}
+.inner{padding:20px}.head{display:flex;justify-content:space-between;align-items:center;gap:12px}.head h2{margin:0}.close{border:1px solid #151515;background:#fff;border-radius:999px;padding:7px 12px}.list{display:grid;gap:10px;margin-top:14px}.item{border:1px solid #d7d1c4;border-radius:12px;padding:12px;background:#fff}.item strong{display:block}.meta{font-size:12px;color:#6f6f6f;margin-top:3px}.open{margin-top:8px;border:1px solid #151515;background:#151515;color:#fff;border-radius:999px;padding:7px 11px}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,10px);background:#151515;color:#fff;border-radius:10px;padding:9px 13px;font-size:12px;opacity:0;transition:.2s;z-index:1200;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:760px){#archiveBtn{top:auto;bottom:76px;right:14px}}
+@media print{#archiveBtn,#archive,.toast{display:none!important}}
+</style>
+</head>
+<body>
+<iframe id="paperFrame" src="./index.html" title="MY DAILY PAPER"></iframe>
+<button id="archiveBtn" type="button">過去号</button>
+<dialog id="archive"><div class="inner"><div class="head"><h2>過去の新聞</h2><button class="close" id="closeArchive">閉じる</button></div><div class="list" id="archiveList"></div></div></dialog>
+<div class="toast" id="toast">保存しました</div>
+<script>
+const DB_NAME='myDailyPaperDB', DB_VERSION=1, SETTINGS='settings', ISSUES='issues';
+function openDB(){return new Promise((resolve,reject)=>{const r=indexedDB.open(DB_NAME,DB_VERSION);r.onupgradeneeded=()=>{const db=r.result;if(!db.objectStoreNames.contains(SETTINGS))db.createObjectStore(SETTINGS,{keyPath:'id'});if(!db.objectStoreNames.contains(ISSUES)){const s=db.createObjectStore(ISSUES,{keyPath:'id'});s.createIndex('savedAt','savedAt')}};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
+async function put(store,value){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(store,'readwrite');tx.objectStore(store).put(value);tx.oncomplete=()=>{db.close();resolve()};tx.onerror=()=>{db.close();reject(tx.error)}})}
+async function all(store){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(store,'readonly');const r=tx.objectStore(store).getAll();r.onsuccess=()=>{db.close();resolve(r.result||[])};r.onerror=()=>{db.close();reject(r.error)}})}
+function dateId(d=new Date()){const x=new Date(d),y=x.getFullYear(),m=String(x.getMonth()+1).padStart(2,'0'),day=String(x.getDate()).padStart(2,'0');return `${y}-${m}-${day}`}
+function toast(msg){const t=document.querySelector('#toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1600)}
+function frameDoc(){return document.querySelector('#paperFrame').contentDocument}
+function collectSettings(doc){const val=id=>doc.querySelector(id)?.value||'';return {g1:{name:val('#genre1'),subs:[val('#sub11'),val('#sub12')].filter(Boolean)},g2:{name:val('#genre2'),subs:[val('#sub21'),val('#sub22')].filter(Boolean)},g3:{name:val('#genre3'),subs:[val('#sub31'),val('#sub32')].filter(Boolean)}}}
+function collectArticles(doc){const rows=[];const top=doc.querySelector('.top-story');if(top)rows.push({type:'top',genre:top.dataset.genre||'',title:top.querySelector('h2')?.textContent.trim()||'',summary:top.querySelector('.dek')?.textContent.trim()||'',source:top.querySelector('.source')?.textContent.trim()||''});doc.querySelectorAll('.article').forEach(a=>rows.push({type:'article',genre:a.dataset.genre||a.closest('[data-section]')?.dataset.section||'',title:a.querySelector('h4')?.textContent.trim()||'',summary:a.querySelector('p')?.textContent.trim()||'',source:a.querySelector('.source')?.textContent.trim()||''}));return rows}
+async function saveSettings(){const doc=frameDoc(),value=collectSettings(doc);await put(SETTINGS,{id:'current',value,updatedAt:new Date().toISOString()})}
+async function saveIssue(){const doc=frameDoc(),now=new Date(),settings=collectSettings(doc),displayDate=doc.querySelector('#issueDate')?.textContent.trim()||dateId(now);await put(SETTINGS,{id:'current',value:settings,updatedAt:now.toISOString()});await put(ISSUES,{id:dateId(now),savedAt:now.toISOString(),displayDate,settings,articles:collectArticles(doc),mainSnapshot:doc.querySelector('main')?.innerHTML||''});toast('新聞を端末に保存しました')}
+function hookFrame(){const doc=frameDoc();if(!doc)return;doc.querySelector('#applySettings')?.addEventListener('click',()=>setTimeout(()=>saveSettings().catch(console.error),0));doc.querySelector('#saveBtn')?.addEventListener('click',()=>setTimeout(()=>saveIssue().catch(console.error),0));doc.querySelector('#mobileSaveBtn')?.addEventListener('click',()=>setTimeout(()=>saveIssue().catch(console.error),0));migrate(doc).catch(console.error)}
+async function migrate(doc){const rawSettings=doc.defaultView.localStorage.getItem('mdp_settings');const rawIssue=doc.defaultView.localStorage.getItem('mdp_latest_issue');if(rawSettings){try{await put(SETTINGS,{id:'current',value:JSON.parse(rawSettings),updatedAt:new Date().toISOString()})}catch(_){}}if(rawIssue){try{const i=JSON.parse(rawIssue);await put(ISSUES,{id:dateId(i.savedAt||new Date()),savedAt:i.savedAt||new Date().toISOString(),displayDate:i.date||'',settings:i.settings||{},articles:collectArticles(doc),mainSnapshot:doc.querySelector('main')?.innerHTML||''})}catch(_){}}}
+async function showArchive(){const dlg=document.querySelector('#archive'),list=document.querySelector('#archiveList');list.innerHTML='<div class="meta">読み込み中…</div>';dlg.showModal();const issues=(await all(ISSUES)).sort((a,b)=>(b.savedAt||'').localeCompare(a.savedAt||''));if(!issues.length){list.innerHTML='<div class="meta">保存された新聞はまだありません。</div>';return}list.innerHTML='';issues.forEach(issue=>{const el=document.createElement('div');el.className='item';el.innerHTML=`<strong>${issue.displayDate||issue.id}</strong><div class="meta">${issue.articles?.length||0}記事・${new Date(issue.savedAt).toLocaleString('ja-JP')} 保存</div><button class="open" type="button">この号を開く</button>`;el.querySelector('button').onclick=()=>openSaved(issue);list.appendChild(el)})}
+function openSaved(issue){const doc=frameDoc();const main=doc.querySelector('main');if(!main||!issue.mainSnapshot)return;main.innerHTML=issue.mainSnapshot;document.querySelector('#archive').close();toast('保存済みの新聞を表示しています')}
+document.querySelector('#archiveBtn').onclick=()=>showArchive().catch(console.error);document.querySelector('#closeArchive').onclick=()=>document.querySelector('#archive').close();document.querySelector('#paperFrame').addEventListener('load',hookFrame);
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./service-worker.js').catch(console.error)}
+</script>
+</body>
+</html>
