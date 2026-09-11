@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local / secrets
+.env
+.env.*
+!.env.example
+
+# Build / cache
+dist/
+.cache/
+node_modules/
+
+# Temporary
+*.tmp
+*.log
