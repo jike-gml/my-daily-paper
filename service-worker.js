@@ -1,6 +1,7 @@
-const CACHE_NAME = 'my-daily-paper-v3';
+const CACHE_NAME = 'my-daily-paper-v4';
 const APP_SHELL = [
   './',
+  './app.html?v=20260911-2',
   './app.html',
   './pwa.html',
   './index.html',
@@ -28,10 +29,9 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-
   const request = event.request;
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: 'no-store' })
       .then(response => {
         if (response && response.status === 200 && response.type !== 'opaque') {
           const copy = response.clone();
@@ -43,7 +43,7 @@ self.addEventListener('fetch', event => {
         const cached = await caches.match(request);
         if (cached) return cached;
         if (request.mode === 'navigate') {
-          return caches.match('./app.html');
+          return (await caches.match('./app.html?v=20260911-2')) || (await caches.match('./app.html'));
         }
         return Response.error();
       })
