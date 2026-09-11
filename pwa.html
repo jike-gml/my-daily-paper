@@ -28,13 +28,14 @@ p{color:#666;font-size:14px}
 (async () => {
   if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('./service-worker.js');
+      const registration = await navigator.serviceWorker.register('./service-worker.js');
+      await registration.update();
       await navigator.serviceWorker.ready;
     } catch (error) {
       console.warn('Service Worker registration failed:', error);
     }
   }
-  location.replace('./index.html');
+  location.replace('./app.html');
 })();
 </script>
 </body>
