@@ -11,7 +11,7 @@ from pathlib import Path
 SOURCES = [
     {
         "name": "Google Japan Blog",
-        "url": "https://blog.google/intl/ja-jp/feed/",
+        "url": "https://blog.google/intl/ja-jp/rss/",
         "category": "technology",
         "language": "ja",
     },
