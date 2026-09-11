@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T10:10:42.072343Z",
+  "generated_at": "2026-09-11T10:11:47.182895Z",
   "category": "technology",
   "sources": [
     {
       "name": "Google Japan Blog",
-      "url": "https://blog.google/intl/ja-jp/feed/"
+      "url": "https://blog.google/intl/ja-jp/rss/"
     },
     {
       "name": "NVIDIA Newsroom",
@@ -76,6 +76,15 @@
       "language": "en"
     },
     {
+      "title": "Gemini 3.8 Flash と 3.8 Flash Cyber を発表",
+      "summary": "gemini 3.8 hero",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-38-flash-38-flash-cyber/",
+      "published_at": "2026-09-03T17:28:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
       "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
       "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators […]",
       "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
@@ -119,6 +128,15 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
+    },
+    {
+      "title": "Google Fitbit Air 限定モデル Pokémon Sleep が登場",
+      "summary": "Google Fitbit Air 限定モデル Pokémon Sleep とピカチュウの画像",
+      "url": "https://blog.google/intl/ja-jp/products/devices-services/fitbit-air-special-edition-pokemon-sleep/",
+      "published_at": "2026-08-27T23:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
     },
     {
       "title": "NVIDIA Announces Upcoming Event for Financial Community",
@@ -173,30 +191,7 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "NVIDIA Announces Jetson Orin Nano 2 Robotics Computer to Redefine Entry-Level Edge AI",
-      "summary": "News Summary: NVIDIA Jetson Orin Nano 2, a new robotics computer for entry-level edge AI, enables millions of developers worldwide to build robots, delivery and inspection drones, and vision AI systems for frontier physical AI applications. Jetson Orin Nano 2 delivers 2x the inference performance of its predecessor in the same form factor and consumes 40% less power at the same performance. More than 3 million develo",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
-      "published_at": "2026-08-25T15:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collection of individual accelerators. Hyperscalers and AI-native companies building custom XPUs must consider […]",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-      "published_at": "2026-08-24T15:00:54Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
     }
   ],
-  "errors": [
-    {
-      "source": "Google Japan Blog",
-      "error": "mismatched tag: line 37, column 245537"
-    }
-  ]
+  "errors": []
 }
