@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#151515"/>
+  <circle cx="256" cy="256" r="186" fill="#f7f4ed"/>
+  <rect x="156" y="154" width="200" height="22" rx="11" fill="#b6202d"/>
+  <text x="256" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#151515">MDP</text>
+  <line x1="156" y1="302" x2="356" y2="302" stroke="#151515" stroke-width="12"/>
+  <line x1="156" y1="342" x2="326" y2="342" stroke="#777" stroke-width="10"/>
+</svg>
