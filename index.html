@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MY DAILY PAPER - Prototype</title>
+<style>
+:root{
+  --ink:#151515;
+  --muted:#6f6f6f;
+  --paper:#f7f4ed;
+  --line:#d7d1c4;
+  --panel:#ffffff;
+  --accent:#b6202d;
+  --max:1120px;
+}
+*{box-sizing:border-box}
+html{background:#ece9e1}
+body{
+  margin:0;
+  color:var(--ink);
+  background:var(--paper);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  line-height:1.65;
+}
+button,select,input{font:inherit}
+button{cursor:pointer}
+.appbar{
+  position:sticky; top:0; z-index:20;
+  background:rgba(247,244,237,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.appbar-inner{
+  max-width:var(--max); margin:auto;
+  display:flex; align-items:center; gap:10px;
+  padding:10px 14px;
+}
+.brand-mini{font-weight:800; letter-spacing:.08em; flex:1}
+.btn{
+  border:1px solid var(--ink);
+  background:transparent;
+  color:var(--ink);
+  border-radius:999px;
+  padding:8px 13px;
+}
+.btn.primary{background:var(--ink); color:#fff}
+main{max-width:var(--max); margin:auto; padding:18px 14px 70px}
+.masthead{
+  text-align:center;
+  border-top:4px double var(--ink);
+  border-bottom:4px double var(--ink);
+  padding:14px 8px 11px;
+}
+.masthead h1{
+  margin:0;
+  font-family:Georgia,"Times New Roman","Yu Mincho",serif;
+  font-size:clamp(30px,6vw,62px);
+  line-height:1;
+  letter-spacing:.05em;
+}
+.issue-meta{
+  margin-top:8px; font-size:12px; color:var(--muted);
+  display:flex; justify-content:center; gap:14px; flex-wrap:wrap;
+}
+.notice{
+  margin:14px 0 0;
+  border:1px dashed #999;
+  padding:8px 10px;
+  font-size:12px;
+  background:#fffaf1;
+}
+.tabs{
+  display:flex; gap:8px; overflow:auto; padding:15px 0 6px;
+  scrollbar-width:none;
+}
+.tab{
+  white-space:nowrap; border:1px solid var(--line);
+  background:#fff; border-radius:999px; padding:8px 13px;
+}
+.tab.active{background:var(--ink); color:#fff; border-color:var(--ink)}
+.top-story{
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:18px;
+  padding:18px 0;
+  border-bottom:2px solid var(--ink);
+}
+.hero-art,.thumb{
+  background:linear-gradient(135deg,#b8c2c9,#5c6670);
+  min-height:260px;
+  position:relative;
+  overflow:hidden;
+}
+.hero-art::after,.thumb::after{
+  content:"公式画像エリア";
+  position:absolute; right:10px; bottom:8px;
+  background:rgba(0,0,0,.65); color:#fff;
+  padding:3px 7px; font-size:11px; border-radius:3px;
+}
+.art-city{
+  background:
+    linear-gradient(to top,rgba(19,26,31,.55),rgba(255,255,255,.04)),
+    repeating-linear-gradient(90deg,#8c969d 0 34px,#6f7a81 34px 56px,#a8b1b6 56px 91px);
+}
+.art-tech{
+  background:
+    radial-gradient(circle at 25% 28%,#dfe9ef 0 3%,transparent 4%),
+    radial-gradient(circle at 70% 52%,#dfe9ef 0 4%,transparent 5%),
+    linear-gradient(135deg,#24313c,#8296a4);
+}
+.art-science{
+  background:
+    radial-gradient(circle at 55% 45%,#e7edf0 0 8%,transparent 9%),
+    radial-gradient(circle at 38% 38%,transparent 0 18%,#d7e1e6 19% 21%,transparent 22%),
+    linear-gradient(145deg,#384f5f,#a9bac5);
+}
+.kicker{font-size:12px; font-weight:800; color:var(--accent); letter-spacing:.08em}
+.top-story h2{
+  font-family:Georgia,"Yu Mincho",serif;
+  font-size:clamp(28px,4.2vw,48px);
+  line-height:1.15; margin:8px 0 12px;
+}
+.dek{font-size:15px; margin:0 0 12px}
+.source{font-size:11px; color:var(--muted)}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+  padding-top:18px;
+}
+.section{
+  border-top:5px solid var(--ink);
+  background:rgba(255,255,255,.42);
+  padding:10px;
+}
+.section-head{
+  display:flex; justify-content:space-between; align-items:end;
+  border-bottom:1px solid var(--ink); padding-bottom:7px; margin-bottom:10px;
+}
+.section-head h3{
+  margin:0; font-family:Georgia,"Yu Mincho",serif; font-size:22px;
+}
+.section-head span{font-size:10px;color:var(--muted)}
+.article{
+  padding:10px 0 12px;
+  border-bottom:1px solid var(--line);
+}
+.article:last-child{border-bottom:0}
+.article .thumb{min-height:130px;margin-bottom:9px}
+.article h4{
+  font-family:Georgia,"Yu Mincho",serif;
+  font-size:19px; line-height:1.35; margin:0 0 7px;
+}
+.article p{font-size:13px;margin:0 0 8px}
+.article .source{display:flex;justify-content:space-between;gap:8px}
+.bottom-actions{
+  position:fixed;left:0;right:0;bottom:0;z-index:15;
+  display:none; gap:8px;
+  padding:10px max(10px,env(safe-area-inset-left)) calc(10px + env(safe-area-inset-bottom));
+  background:rgba(247,244,237,.96); border-top:1px solid var(--line);
+}
+.bottom-actions button{flex:1}
+dialog{
+  width:min(680px,calc(100% - 24px));
+  border:0;border-radius:18px;padding:0;
+  box-shadow:0 30px 90px rgba(0,0,0,.28);
+}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.dialog-inner{padding:20px}
+.dialog-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.dialog-head h2{margin:0}
+.genre-row{
+  border-top:1px solid #ddd; padding:14px 0;
+  display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;
+}
+.genre-row strong{grid-column:1/-1}
+select,input{
+  width:100%;padding:10px;border:1px solid #cfcfcf;border-radius:10px;background:#fff;
+}
+.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}
+.saved-badge{
+  position:fixed;right:14px;bottom:72px;
+  background:var(--ink);color:#fff;border-radius:10px;padding:9px 12px;
+  font-size:12px;opacity:0;transform:translateY(8px);transition:.2s;pointer-events:none;
+}
+.saved-badge.show{opacity:1;transform:none}
+footer{
+  border-top:1px solid var(--ink);
+  margin-top:18px;padding:12px 0 0;
+  font-size:10px;color:var(--muted);
+}
+
+@media(max-width:760px){
+  .appbar-inner .print-top{display:none}
+  main{padding-top:10px}
+  .masthead h1{font-size:34px}
+  .top-story{grid-template-columns:1fr;gap:12px}
+  .hero-art{min-height:220px}
+  .top-story h2{font-size:31px}
+  .grid{grid-template-columns:1fr;gap:20px}
+  .section{padding:10px 0;background:transparent}
+  .article{display:grid;grid-template-columns:112px 1fr;gap:10px}
+  .article .thumb{min-height:96px;margin:0}
+  .article h4{font-size:17px}
+  .article p{font-size:12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .article .source{grid-column:1/-1}
+  .bottom-actions{display:flex}
+  .genre-row{grid-template-columns:1fr}
+  .genre-row strong{grid-column:auto}
+}
+
+@media print{
+  @page{size:A4 portrait;margin:10mm}
+  html,body{background:#fff}
+  body{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;line-height:1.45}
+  .appbar,.tabs,.bottom-actions,.notice,.saved-badge,dialog{display:none!important}
+  main{max-width:none;padding:0}
+  .masthead{padding:5mm 0 3mm}
+  .masthead h1{font-size:30pt}
+  .issue-meta{font-family:sans-serif;font-size:8pt}
+  .top-story{
+    grid-template-columns:1.15fr 1fr;gap:5mm;
+    padding:5mm 0;border-bottom:1.5pt solid #000;
+    break-inside:avoid;
+  }
+  .hero-art{min-height:58mm}
+  .top-story h2{font-size:23pt;margin:2mm 0 3mm}
+  .dek{font-size:9.3pt}
+  .grid{grid-template-columns:repeat(3,1fr);gap:4mm;padding-top:5mm}
+  .section{padding:2.5mm;background:#fff}
+  .section-head h3{font-size:14pt}
+  .article{break-inside:avoid;padding:2.5mm 0}
+  .article .thumb{min-height:30mm}
+  .article h4{font-size:11.5pt}
+  .article p{font-size:8pt}
+  .source,footer{font-family:sans-serif;font-size:6.8pt}
+}
+</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-inner">
+    <div class="brand-mini">MY DAILY PAPER</div>
+    <button class="btn" id="settingsBtn">ジャンル設定</button>
+    <button class="btn" id="saveBtn">端末に保存</button>
+    <button class="btn primary print-top" id="printBtn">A4印刷</button>
+  </div>
+</header>
+
+<main>
+  <section class="masthead">
+    <h1>MY DAILY PAPER</h1>
+    <div class="issue-meta">
+      <span id="issueDate">2026年9月11日 金曜日</span>
+      <span>朝刊・サンプル版</span>
+      <span>端末保存型プロトタイプ</span>
+    </div>
+  </section>
+
+  <div class="notice">
+    この画面の記事・画像はレイアウト確認用のダミーです。実装版では、選択した3ジャンルの公式一次情報のみを収集します。
+  </div>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-filter="all">総合</button>
+    <button class="tab" data-filter="g1" id="tab1">国内</button>
+    <button class="tab" data-filter="g2" id="tab2">テクノロジー</button>
+    <button class="tab" data-filter="g3" id="tab3">科学</button>
+  </nav>
+
+  <article class="top-story" data-genre="g1">
+    <div class="hero-art art-city"></div>
+    <div>
+      <div class="kicker">TOP STORY / <span id="topGenre">国内</span></div>
+      <h2>今日もっとも重要な公式発表を、大きな見出しで掲載</h2>
+      <p class="dek">
+        ここには公式発表の内容を、読みやすい日本語で整理した本文が入ります。
+        実装版では発表元、公開日時、公式URLを保持し、出典を確認できるようにします。
+      </p>
+      <div class="source">出典：公式一次情報（サンプル）　｜　公開 08:00</div>
+    </div>
+  </article>
+
+  <section class="grid" id="newsGrid">
+    <div class="section" data-section="g1">
+      <div class="section-head"><h3 id="head1">国内</h3><span>GENRE 01</span></div>
+      <article class="article" data-genre="g1">
+        <div class="thumb art-city"></div>
+        <div>
+          <h4>公式発表から重要ポイントを抜き出した見出し</h4>
+          <p>本文は転載ではなく、取得可能な概要や公開情報をアプリ側のルールで整形して掲載します。</p>
+        </div>
+        <div class="source"><span>公式サイトA</span><span>07:30</span></div>
+      </article>
+      <article class="article" data-genre="g1">
+        <div>
+          <h4>同じニュースの重複掲載を避けて紙面を整理</h4>
+          <p>URLやタイトルなどを使い、前日以前の記事との重複判定を行う想定です。</p>
+        </div>
+        <div class="source"><span>公式サイトB</span><span>06:50</span></div>
+      </article>
+    </div>
+
+    <div class="section" data-section="g2">
+      <div class="section-head"><h3 id="head2">テクノロジー</h3><span>GENRE 02</span></div>
+      <article class="article" data-genre="g2">
+        <div class="thumb art-tech"></div>
+        <div>
+          <h4>新製品やサービスの発表を公式情報から収集</h4>
+          <p>ニュースサイト経由ではなく、企業・団体のニュースルームやRSSなどを優先します。</p>
+        </div>
+        <div class="source"><span>公式ニュースルーム</span><span>08:10</span></div>
+      </article>
+      <article class="article" data-genre="g2">
+        <div>
+          <h4>海外情報は必要な場合だけ翻訳処理へ</h4>
+          <p>日本語の公式発表はそのまま処理し、外国語ソースだけ翻訳対象にする設計です。</p>
+        </div>
+        <div class="source"><span>公式サイトC</span><span>07:05</span></div>
+      </article>
+    </div>
+
+    <div class="section" data-section="g3">
+      <div class="section-head"><h3 id="head3">科学</h3><span>GENRE 03</span></div>
+      <article class="article" data-genre="g3">
+        <div class="thumb art-science"></div>
+        <div>
+          <h4>研究機関などの一次発表を写真付きで掲載</h4>
+          <p>画像の利用条件を確認できない場合は、無理に転載せず画像なしで表示する運用にできます。</p>
+        </div>
+        <div class="source"><span>研究機関公式</span><span>07:40</span></div>
+      </article>
+      <article class="article" data-genre="g3">
+        <div>
+          <h4>スマホでは縦スクロール、印刷では新聞段組み</h4>
+          <p>同じ記事データを、画面サイズと印刷時のCSSに応じて自動で組み替えます。</p>
+        </div>
+        <div class="source"><span>アプリ仕様サンプル</span><span>09:00</span></div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    MY DAILY PAPER Prototype / 実装版では各記事に公式URL・発表元・公開日時を保存します。
+  </footer>
+</main>
+
+<div class="bottom-actions">
+  <button class="btn" id="mobileSaveBtn">保存</button>
+  <button class="btn" id="mobileSettingsBtn">設定</button>
+  <button class="btn primary" id="mobilePrintBtn">A4印刷</button>
+</div>
+<div class="saved-badge" id="savedBadge">端末に保存しました</div>
+
+<dialog id="settingsDialog">
+  <div class="dialog-inner">
+    <div class="dialog-head">
+      <h2>収集ジャンル設定</h2>
+      <button class="btn" id="closeSettings">閉じる</button>
+    </div>
+    <p style="font-size:13px;color:#666">
+      3ジャンルを選択。各ジャンルは「絞り込み」を最大2項目まで設定できます。ここではUI確認のみです。
+    </p>
+
+    <div class="genre-row">
+      <strong>ジャンル 1</strong>
+      <select id="genre1">
+        <option>国内</option><option>国際</option><option>経済</option><option>テクノロジー</option>
+        <option>科学</option><option>エンタメ</option><option>スポーツ</option><option>ライフ</option><option>地域</option>
+      </select>
+      <input id="sub11" placeholder="絞り込み1（任意）">
+      <input id="sub12" placeholder="絞り込み2（任意）">
+    </div>
+
+    <div class="genre-row">
+      <strong>ジャンル 2</strong>
+      <select id="genre2">
+        <option>国内</option><option>国際</option><option>経済</option><option selected>テクノロジー</option>
+        <option>科学</option><option>エンタメ</option><option>スポーツ</option><option>ライフ</option><option>地域</option>
+      </select>
+      <input id="sub21" placeholder="絞り込み1（任意）">
+      <input id="sub22" placeholder="絞り込み2（任意）">
+    </div>
+
+    <div class="genre-row">
+      <strong>ジャンル 3</strong>
+      <select id="genre3">
+        <option>国内</option><option>国際</option><option>経済</option><option>テクノロジー</option>
+        <option selected>科学</option><option>エンタメ</option><option>スポーツ</option><option>ライフ</option><option>地域</option>
+      </select>
+      <input id="sub31" placeholder="絞り込み1（任意）">
+      <input id="sub32" placeholder="絞り込み2（任意）">
+    </div>
+
+    <div class="dialog-actions">
+      <button class="btn primary" id="applySettings">この設定を保存</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const dlg = $("#settingsDialog");
+
+function openSettings(){ dlg.showModal(); }
+$("#settingsBtn").onclick = openSettings;
+$("#mobileSettingsBtn").onclick = openSettings;
+$("#closeSettings").onclick = () => dlg.close();
+
+function settingsObject(){
+  return {
+    g1: {name:$("#genre1").value, subs:[$("#sub11").value,$("#sub12").value].filter(Boolean)},
+    g2: {name:$("#genre2").value, subs:[$("#sub21").value,$("#sub22").value].filter(Boolean)},
+    g3: {name:$("#genre3").value, subs:[$("#sub31").value,$("#sub32").value].filter(Boolean)}
+  };
+}
+function applyLabels(s){
+  $("#tab1").textContent=s.g1.name; $("#head1").textContent=s.g1.name;
+  $("#tab2").textContent=s.g2.name; $("#head2").textContent=s.g2.name;
+  $("#tab3").textContent=s.g3.name; $("#head3").textContent=s.g3.name;
+  $("#topGenre").textContent=s.g1.name;
+}
+function loadSettings(){
+  const raw=localStorage.getItem("mdp_settings");
+  if(!raw) return;
+  try{
+    const s=JSON.parse(raw);
+    ["g1","g2","g3"].forEach((g,i)=>{
+      $("#genre"+(i+1)).value=s[g].name;
+      const a=s[g].subs||[];
+      $("#sub"+(i+1)+"1").value=a[0]||"";
+      $("#sub"+(i+1)+"2").value=a[1]||"";
+    });
+    applyLabels(s);
+  }catch(e){}
+}
+$("#applySettings").onclick=()=>{
+  const s=settingsObject();
+  localStorage.setItem("mdp_settings",JSON.stringify(s));
+  applyLabels(s);
+  dlg.close();
+  flash("ジャンル設定を保存しました");
+};
+
+function flash(msg){
+  const b=$("#savedBadge"); b.textContent=msg; b.classList.add("show");
+  setTimeout(()=>b.classList.remove("show"),1600);
+}
+function saveIssue(){
+  const issue={
+    savedAt:new Date().toISOString(),
+    date:$("#issueDate").textContent,
+    settings:settingsObject(),
+    note:"プロトタイプ版の保存データ"
+  };
+  localStorage.setItem("mdp_latest_issue",JSON.stringify(issue));
+  flash("端末に保存しました");
+}
+$("#saveBtn").onclick=saveIssue;
+$("#mobileSaveBtn").onclick=saveIssue;
+
+function printIssue(){ window.print(); }
+$("#printBtn").onclick=printIssue;
+$("#mobilePrintBtn").onclick=printIssue;
+
+$$(".tab").forEach(btn=>{
+  btn.onclick=()=>{
+    $$(".tab").forEach(b=>b.classList.remove("active")); btn.classList.add("active");
+    const f=btn.dataset.filter;
+    const top=$(".top-story");
+    const grid=$("#newsGrid");
+    if(f==="all"){
+      top.style.display="grid";
+      $$("[data-section]").forEach(x=>x.style.display="block");
+    }else{
+      top.style.display = top.dataset.genre===f ? "grid" : "none";
+      $$("[data-section]").forEach(x=>x.style.display=x.dataset.section===f?"block":"none");
+      grid.style.gridTemplateColumns="1fr";
+    }
+    if(f==="all") grid.style.gridTemplateColumns="";
+  };
+});
+
+loadSettings();
+</script>
+</body>
+</html>
