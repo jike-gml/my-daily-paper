@@ -2,7 +2,7 @@
   "name": "MY DAILY PAPER",
   "short_name": "DAILY PAPER",
   "description": "自分専用の毎日新聞アプリ",
-  "start_url": "./pwa.html",
+  "start_url": "./app.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f7f4ed",
