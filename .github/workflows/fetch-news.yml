@@ -2,6 +2,11 @@ name: Fetch official news
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_news.py'
+      - '.github/workflows/fetch-news.yml'
   schedule:
     - cron: '10 21 * * *'
     - cron: '10 3 * * *'
