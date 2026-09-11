@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#151515">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MY DAILY PAPER">
+<title>MY DAILY PAPER</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<style>
+html,body{height:100%;margin:0;background:#f7f4ed;color:#151515;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+main{min-height:100%;display:grid;place-items:center;padding:24px;text-align:center;box-sizing:border-box}
+.logo{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,8vw,54px);font-weight:700;letter-spacing:.04em}
+p{color:#666;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+  <div>
+    <div class="logo">MY DAILY PAPER</div>
+    <p>アプリを起動しています…</p>
+  </div>
+</main>
+<script>
+(async () => {
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('./service-worker.js');
+      await navigator.serviceWorker.ready;
+    } catch (error) {
+      console.warn('Service Worker registration failed:', error);
+    }
+  }
+  location.replace('./index.html');
+})();
+</script>
+</body>
+</html>
