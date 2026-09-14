@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:20:52.639207Z",
+  "generated_at": "2026-09-14T21:21:46.436219Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information […]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "published_at": "2026-09-14T15:00:52Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
+      "summary": "News Summary: The NVIDIA CUDA-Q platform now includes the CUDA-Q Logical orchestration layer, giving the quantum industry an open, programmable way to design and test fault-tolerant quantum computing applications in areas such as drug discovery, financial modeling and materials development. Fermilab used CUDA-Q Logical to accelerate fault-tolerant architecture development from five months to three weeks — a 7x speedu",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
+      "published_at": "2026-09-14T13:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses […]",
@@ -170,24 +188,6 @@
       "summary": "Amazon Web Services (AWS), an Amazon.com, Inc. company (NASDAQ: AMZN), and NVIDIA (NASDAQ: NVDA) today announced a major expansion of their strategic collaboration to meet surging global demand for AI infrastructure as demand continues to accelerate. Building on already-rapid customer adoption of NVIDIA-accelerated compute on AWS, the companies plan to deploy 2 million additional NVIDIA GPUs across AWS’s global infra",
       "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
       "published_at": "2026-08-26T21:05:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-      "summary": "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 26, 2026, of $96.2 billion, up 18% from the previous quarter and up 106% from a year ago. For the quarter, GAAP and non-GAAP gross margins were both 75.0%. GAAP and non-GAAP earnings per diluted share were $2.46 and $2.22, respectively. “AI has reached its inflection point. It’s doing useful work. Its tokens are productive and profitable. ",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "published_at": "2026-08-26T20:20:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
-      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to NVIDIA RTX Spark ahead of its launch […]",
-      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
-      "published_at": "2026-08-25T15:30:48Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
