@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:21:20.920943Z",
+  "generated_at": "2026-09-16T03:19:49.949160Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,33 @@
     }
   ],
   "items": [
+    {
+      "title": "9 月の Pixel Drop：新しい詐欺検知通知、Google Pixel Watch のアップデートなどをご紹介",
+      "summary": "Pixel Drop とかかれた画像",
+      "url": "https://blog.google/intl/ja-jp/feed/september-2026-pixel-drop/",
+      "published_at": "2026-09-16T10:59:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "Android と iPhone 間のメッセージがより便利に。日本国内での RCS がさらに拡大",
+      "summary": "日本国内での RCS がさらに拡大。Android と iPhone 間のメッセージがより便利に。このたび、株式会社NTTドコモの iOS デバイスが iOS 27 から標準メッセージサービスでの RCS （リッチ コミュニケーション サービス）に対応したことにより、 KDDI株式会社やソフトバンク株式会社を含む国内の主要通信事業者、3…",
+      "url": "https://blog.google/intl/ja-jp/feed/android-ios-rcs/",
+      "published_at": "2026-09-16T10:04:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into […]",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "published_at": "2026-09-15T22:24:34Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
       "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers […]",
@@ -161,33 +188,6 @@
       "summary": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the CrowdStrike Cyber […]",
       "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
       "published_at": "2026-09-01T21:19:20Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA and MediaTek Deepen Long-Standing Partnership to Build AI Edge to Cloud Computing Platforms",
-      "summary": "NVIDIA and MediaTek today announced a deepening of their longstanding collaboration to build the next generations of AI computing platforms — spanning AI infrastructure, local AI computing and automotive. As part of the expanded collaboration, MediaTek will adopt the NVIDIA NVLink Fusion™ platform to provide hyperscalers, cloud service providers and frontier model developers with a prevalidated path to develop custom",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
-      "published_at": "2026-08-31T12:30:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Google Fitbit Air 限定モデル Pokémon Sleep が登場",
-      "summary": "Google Fitbit Air 限定モデル Pokémon Sleep とピカチュウの画像",
-      "url": "https://blog.google/intl/ja-jp/products/devices-services/fitbit-air-special-edition-pokemon-sleep/",
-      "published_at": "2026-08-27T23:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "NVIDIA Announces Upcoming Event for Financial Community",
-      "summary": "NVIDIA will present at the following event for the financial community: Goldman Sachs Communacopia + Technology Conference Thursday, Sept. 10, 8:50 a.m. PT Interested parties can listen to the live audio webcast of NVIDIA financial presentations at investor.nvidia.com . Webcast replays are available for 90 days afterward. ]]>",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6927858",
-      "published_at": "2026-08-27T21:00:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
