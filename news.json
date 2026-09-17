@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:19:44.522885Z",
+  "generated_at": "2026-09-17T21:21:43.789774Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "published_at": "2026-09-17T13:00:55Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
       "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infr",
@@ -182,15 +191,6 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
-    },
-    {
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators […]",
-      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "published_at": "2026-09-03T16:00:59Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
     }
   ],
   "errors": []
