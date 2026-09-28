@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T23:47:31.169607Z",
+  "generated_at": "2026-09-28T09:38:49.385701Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "Google Japan 25 周年 : 日本の皆さまへ、25 年分の「ありがとう」を込めて",
+      "summary": "2001 年 9 月、渋谷のシェアオフィスの一角に、Google として初の海外拠点となるオフィスを開設した当時、日本で提供していたのは Google 検索 だけでした。そこから今日までの Google を支えてくれたのは、皆さまの声でした。日本で発明された絵文字や独自のネットカルチャー、世界でも類を見ないほど複雑な路線図――こうした日…",
+      "url": "https://blog.google/intl/ja-jp/company-news/outreach-initiatives/google-japan-25-25/",
+      "published_at": "2026-09-28T11:51:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+      "summary": "News Summary: NVIDIA Open Agent Safety Platform consists of NVIDIA OpenShell open source software and the NVIDIA Sentry reference system design that enables full-stack governance and control across software and the hardware, compute and robotics systems that run agents. OpenShell software provides a secure runtime boundary that traces all actions and enforces policy as agents run on NVIDIA Vera CPUs. As open source s",
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "published_at": "2026-09-28T09:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
       "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
@@ -170,24 +188,6 @@
       "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers […]",
       "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "published_at": "2026-09-15T16:55:59Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-      "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — […]",
-      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-      "published_at": "2026-09-15T16:55:40Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-      "summary": "",
-      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-      "published_at": "2026-09-15T09:00:42Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
