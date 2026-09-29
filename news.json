@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:38:49.385701Z",
+  "generated_at": "2026-09-29T00:57:34.750911Z",
   "category": "technology",
   "sources": [
     {
@@ -20,6 +20,15 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
+    },
+    {
+      "title": "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase",
+      "summary": "News Summary: NVIDIA’s Board of Directors has authorized a $150 billion increase to the share repurchase program, raising the remaining total program to $235 billion. This marks the largest share repurchase authorization increase in history. NVIDIA today announced that its Board of Directors has authorized an additional $150 billion under the company’s existing share repurchase program, increasing the total remaining",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+      "published_at": "2026-09-28T11:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
     },
     {
       "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
@@ -179,15 +188,6 @@
       "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into […]",
       "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
       "published_at": "2026-09-15T22:24:34Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
-      "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers […]",
-      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-      "published_at": "2026-09-15T16:55:59Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
