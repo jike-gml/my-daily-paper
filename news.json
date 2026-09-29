@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:57:34.750911Z",
+  "generated_at": "2026-09-29T09:43:06.358546Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "AI の力で、全国の自治体とともに拓く日本の未来：ローカル AI プロジェクトの新たな一歩",
+      "summary": "高齢化社会や労働人口の減少といった日本の社会課題に対し、AI をはじめとしたテクノロジーを活用することは、一人ひとりの生産性向上や地域社会が抱える課題解決を加速させる心強いパートナーになると私たちは考えています。Google は、日本において「AI の力で解き放とう、日本の可能性」という指針を掲げ、テクノロジーを通じた日本社会への貢献を…",
+      "url": "https://blog.google/intl/ja-jp/company-news/outreach-initiatives/ailocalproject/",
+      "published_at": "2026-09-29T20:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
     {
       "title": "Google Japan 25 周年 : 日本の皆さまへ、25 年分の「ありがとう」を込めて",
       "summary": "2001 年 9 月、渋谷のシェアオフィスの一角に、Google として初の海外拠点となるオフィスを開設した当時、日本で提供していたのは Google 検索 だけでした。そこから今日までの Google を支えてくれたのは、皆さまの声でした。日本で発明された絵文字や独自のネットカルチャー、世界でも類を見ないほど複雑な路線図――こうした日…",
@@ -56,6 +65,15 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
+    },
+    {
+      "title": "Gemini 3.8 音声合成モデルを発表",
+      "summary": "「Gemini 3.8 Flash TTSと3.8 Flash-Lite TTSのご紹介」と書かれたテキストカード画像",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-3-8-text-to-speech/",
+      "published_at": "2026-09-23T15:15:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
     },
     {
       "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
@@ -173,24 +191,6 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
-    },
-    {
-      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-      "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the […]",
-      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-      "published_at": "2026-09-16T05:00:42Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-      "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into […]",
-      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-      "published_at": "2026-09-15T22:24:34Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
     }
   ],
   "errors": []
