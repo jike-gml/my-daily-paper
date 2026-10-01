@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:34:59.798179Z",
+  "generated_at": "2026-10-01T00:31:15.861705Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,33 @@
     }
   ],
   "items": [
+    {
+      "title": "Gemini 4 Argon：フロンティア知能の新時代",
+      "summary": "現代的な編集ブランディングと「Gemini 4 Argon」というテキストをあしらった、スタイリッシュなプロモーションブログのキーアートグラフィック",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini4argon/",
+      "published_at": "2026-10-01T05:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th […]",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "published_at": "2026-09-30T17:00:21Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced […]",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "published_at": "2026-09-30T15:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "AI の力で、全国の自治体とともに拓く日本の未来：ローカル AI プロジェクトの新たな一歩",
       "summary": "高齢化社会や労働人口の減少といった日本の社会課題に対し、AI をはじめとしたテクノロジーを活用することは、一人ひとりの生産性向上や地域社会が抱える課題解決を加速させる心強いパートナーになると私たちは考えています。Google は、日本において「AI の力で解き放とう、日本の可能性」という指針を掲げ、テクノロジーを通じた日本社会への貢献を…",
@@ -164,33 +191,6 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use […]",
-      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-      "published_at": "2026-09-16T13:00:33Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "9 月の Pixel Drop：新しい詐欺検知通知、Google Pixel Watch のアップデートなどをご紹介",
-      "summary": "Pixel Drop とかかれた画像",
-      "url": "https://blog.google/intl/ja-jp/feed/september-2026-pixel-drop/",
-      "published_at": "2026-09-16T10:59:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Android と iPhone 間のメッセージがより便利に。日本国内での RCS がさらに拡大",
-      "summary": "日本国内での RCS がさらに拡大。Android と iPhone 間のメッセージがより便利に。このたび、株式会社NTTドコモの iOS デバイスが iOS 27 から標準メッセージサービスでの RCS （リッチ コミュニケーション サービス）に対応したことにより、 KDDI株式会社やソフトバンク株式会社を含む国内の主要通信事業者、3…",
-      "url": "https://blog.google/intl/ja-jp/feed/android-ios-rcs/",
-      "published_at": "2026-09-16T10:04:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
     }
   ],
   "errors": []
