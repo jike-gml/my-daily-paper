@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:01:06.868320Z",
+  "generated_at": "2026-10-02T00:43:35.528118Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,33 @@
     }
   ],
   "items": [
+    {
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "published_at": "2026-10-01T23:44:13Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Fall Into 25 New Games on GeForce NOW This October",
+      "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
+      "published_at": "2026-10-01T13:00:54Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+      "summary": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]",
+      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+      "published_at": "2026-10-01T13:00:49Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Gboard チームからの新しいキーボードのご提案 2026",
       "summary": "キーボードくるくるバージョンを組み立てている作業台の写真",
@@ -161,33 +188,6 @@
       "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
       "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
       "published_at": "2026-09-21T16:00:10Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "published_at": "2026-09-21T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, […]",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "published_at": "2026-09-21T14:51:34Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "5 Companies Using NVIDIA AI for Clean Energy",
-      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]",
-      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-      "published_at": "2026-09-21T10:00:35Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
