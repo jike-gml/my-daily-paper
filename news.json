@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T10:08:23.688126Z",
+  "generated_at": "2026-10-08T00:56:53.945555Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents",
+      "summary": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "published_at": "2026-10-07T18:45:28Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Google Pixel の認定整備済品を日本で販売開始",
       "summary": "Google Pixelの認定整備済製品を紹介するコラージュ画像。",
@@ -179,15 +188,6 @@
       "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
       "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
       "published_at": "2026-09-24T14:00:50Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive […]",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-      "published_at": "2026-09-24T13:00:36Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
