@@ -13,7 +13,10 @@
     return el;
   };
   const randomId = () => crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
-  const today = () => new Date().toLocaleDateString('sv-SE');
+  const today = () => {
+    const d=new Date();
+    return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');
+  };
   const escapeDate = (v) => {
     const d = new Date(v);
     return !v || Number.isNaN(d.getTime()) ? '' : new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric'}).format(d);
@@ -204,8 +207,10 @@
     const node=mk(top?'section':'article',top?'headline':'story');
     const label=mk('div','eyebrow',a.section+' / '+(top?'TOP STORY':'OFFICIAL SOURCE'));
     const headline=mk(top?'h3':'h3');
-    const link=mk('a','',a.title);link.href=normalizedURL(a.url)||'#';link.target='_blank';link.rel='noopener noreferrer';
-    link.addEventListener('click',(event)=>{if(!normalizedURL(a.url)){event.preventDefault();flash('安全な記事URLではありません');return;} a.read=true;put('articles',a).catch(console.warn);});
+    const articleUrl=normalizedURL(a.url);
+    const link=mk(articleUrl?'a':'span','',a.title);
+    if(articleUrl){link.href=articleUrl;link.target='_blank';link.rel='noopener noreferrer';}
+    if(articleUrl) link.addEventListener('click',()=>{a.read=true;put('articles',a).catch(console.warn);});
     headline.append(link);
     node.append(label,headline);
     if(a.summary) node.append(mk('p','',a.summary));
