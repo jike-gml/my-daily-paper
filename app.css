@@ -83,3 +83,15 @@ a{color:var(--accent)}.shell{max-width:980px;margin:0 auto;padding:0 18px 108px}
 .toast.show{opacity:1;transform:translateX(-50%)}
 @media(max-width:600px){.shell{padding:0 15px 100px}.story-list{grid-template-columns:1fr}.story{min-height:0}.profile-row{align-items:stretch}.profile-row label{flex:1}.profile-row select{max-width:165px}.masthead h1{font-size:clamp(28px,8vw,40px)}.headline{padding:18px}.form-row{grid-template-columns:1fr}}
 @media print{body{background:#fff;color:#000;font-family:"Yu Mincho",serif}.shell{padding:0;max-width:none}.utility,.profile-row,.status,.nav,.tools,.pills,.bottom,.toast,.dialog,.star,.story-footer button,.notice{display:none!important}.masthead{border-bottom:double 4px #000}.masthead h1{font-size:36pt}.section-header h2{font-size:22pt}.headline{background:#fff;border:0;border-bottom:2px solid #000;border-radius:0;padding:10mm 0}.headline h3{font-size:23pt}.story-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:4mm}.story{break-inside:avoid;border:0;border-radius:0;border-top:1px solid #444;padding:3mm 0}.story h3{font-size:11pt}.story p{font-size:8pt}@page{size:A4 portrait;margin:12mm}}
+
+/* V2 editorial refinements */
+.quick-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:6px 0 17px}
+.metric{display:flex;align-items:baseline;justify-content:center;gap:8px;padding:11px 8px;background:#fff;border:1px solid var(--line);border-radius:14px}
+.metric strong{font-family:Georgia,"Yu Mincho",serif;font-size:1.45rem;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+.metric span{font-size:.72rem;color:var(--muted);white-space:nowrap}
+.masthead{position:relative}
+.masthead:after{content:"";display:block;width:46px;height:3px;background:var(--accent2);position:absolute;bottom:-3px;left:0}
+.story{transition:box-shadow .18s ease,border-color .18s ease}
+.story:hover{border-color:#aab8c6;box-shadow:0 4px 22px rgba(29,37,51,.045)}
+@media(max-width:400px){.metric{gap:5px}.metric strong{font-size:1.2rem}.metric span{font-size:.65rem}}
+@media print{.quick-metrics{display:none!important}}
