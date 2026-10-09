@@ -413,7 +413,7 @@
     const profile=currentProfile();
     const run=state.lastRun?.time?Date.now()-new Date(state.lastRun.time).getTime():Infinity;
     if(profile?.autoCollect && state.sources.some(s=>s.profileId===state.profileId) && run>6*3600*1000)refreshData().catch(console.error);
-    if('serviceWorker' in navigator && location.protocol==='https:')navigator.serviceWorker.register('./service-worker.js').catch(console.warn);
+    if('serviceWorker' in navigator && location.protocol==='https:')navigator.serviceWorker.register('./service-worker-v2.js').catch(console.warn);
   }
   init().catch(e=>{setStatus('保存領域を利用できません','bad');flash(errorMessage(e));});
 })();
