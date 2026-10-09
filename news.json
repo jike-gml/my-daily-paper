@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:24:46.566510Z",
+  "generated_at": "2026-10-09T01:10:58.030486Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,51 @@
     }
   ],
   "items": [
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]",
+      "url": "https://blogs.nvidia.com/blog/developers-simulations-frontier-ai-agents/",
+      "published_at": "2026-10-08T21:06:35Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Google マップで最高のグルメ体験を楽しむ 3 つの方法",
+      "summary": "スマホ画面にハンバーガーショップのイラストが書かれた画像",
+      "url": "https://blog.google/intl/ja-jp/feed/google-maps-restaurant-tips-tricks/",
+      "published_at": "2026-10-08T21:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "Google マップ から世界 10 都市の最新グルメトレンドとファンのお気に入りリストをご紹介",
+      "summary": "Google マップのロゴと地図のイラスト",
+      "url": "https://blog.google/intl/ja-jp/products/explore-get-answers/google-maps-fan-favorite-dining-list/",
+      "published_at": "2026-10-08T21:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years",
+      "summary": "News Summary: NVIDIA announces commitments valued at $1 billion to advance U.S. science over the next five years, at a Washington event convening U.S. officials, industry leaders and members of the science community. This builds on longstanding collaboration between NVIDIA and national labs, spanning two decades. NVIDIA today announced commitments valued at $1 billion to build out the United States’ capacity for supe",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+      "published_at": "2026-10-08T14:31:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+      "published_at": "2026-10-08T13:00:46Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents",
       "summary": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]",
@@ -143,51 +188,6 @@
       "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced […]",
       "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
       "published_at": "2026-09-30T15:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "AI の力で、全国の自治体とともに拓く日本の未来：ローカル AI プロジェクトの新たな一歩",
-      "summary": "高齢化社会や労働人口の減少といった日本の社会課題に対し、AI をはじめとしたテクノロジーを活用することは、一人ひとりの生産性向上や地域社会が抱える課題解決を加速させる心強いパートナーになると私たちは考えています。Google は、日本において「AI の力で解き放とう、日本の可能性」という指針を掲げ、テクノロジーを通じた日本社会への貢献を…",
-      "url": "https://blog.google/intl/ja-jp/company-news/outreach-initiatives/ailocalproject/",
-      "published_at": "2026-09-29T20:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Google Japan 25 周年 : 日本の皆さまへ、25 年分の「ありがとう」を込めて",
-      "summary": "2001 年 9 月、渋谷のシェアオフィスの一角に、Google として初の海外拠点となるオフィスを開設した当時、日本で提供していたのは Google 検索 だけでした。そこから今日までの Google を支えてくれたのは、皆さまの声でした。日本で発明された絵文字や独自のネットカルチャー、世界でも類を見ないほど複雑な路線図――こうした日…",
-      "url": "https://blog.google/intl/ja-jp/company-news/outreach-initiatives/google-japan-25-25/",
-      "published_at": "2026-09-28T11:51:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase",
-      "summary": "News Summary: NVIDIA’s Board of Directors has authorized a $150 billion increase to the share repurchase program, raising the remaining total program to $235 billion. This marks the largest share repurchase authorization increase in history. NVIDIA today announced that its Board of Directors has authorized an additional $150 billion under the company’s existing share repurchase program, increasing the total remaining",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
-      "published_at": "2026-09-28T11:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
-      "summary": "News Summary: NVIDIA Open Agent Safety Platform consists of NVIDIA OpenShell open source software and the NVIDIA Sentry reference system design that enables full-stack governance and control across software and the hardware, compute and robotics systems that run agents. OpenShell software provides a secure runtime boundary that traces all actions and enforces policy as agents run on NVIDIA Vera CPUs. As open source s",
-      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
-      "published_at": "2026-09-28T09:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-      "published_at": "2026-09-24T14:00:50Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
