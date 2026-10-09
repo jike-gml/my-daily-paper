@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script>
+// The public landing page opens the actual app shell; the iframe keeps this paper as its inner layout.
+// Add ?prototype=1 to preview this static paper directly.
+if (window.self === window.top && !new URLSearchParams(location.search).has('prototype')) {
+  location.replace('./app.html');
+}
+</script>
 <title>MY DAILY PAPER - Prototype</title>
 <style>
 :root{
@@ -252,7 +259,7 @@ footer{
   <section class="masthead">
     <h1>MY DAILY PAPER</h1>
     <div class="issue-meta">
-      <span id="issueDate">2026年9月11日 金曜日</span>
+      <span id="issueDate"></span>
       <span>朝刊・サンプル版</span>
       <span>端末保存型プロトタイプ</span>
     </div>
@@ -484,6 +491,8 @@ $$(".tab").forEach(btn=>{
 });
 
 loadSettings();
+const issueDateNode = document.getElementById('issueDate');
+if (issueDateNode) issueDateNode.textContent = new Intl.DateTimeFormat('ja-JP', {year:'numeric',month:'long',day:'numeric',weekday:'long'}).format(new Date());
 </script>
 </body>
 </html>
