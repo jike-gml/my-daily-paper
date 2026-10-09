@@ -8,10 +8,10 @@
 - Keep current \`main\` implementation unchanged while V2 is reviewed.
 
 ## Preview
-Open \`reader.html\` on a static HTTPS host to try the interface. The browser version only fetches feeds with a compatible CORS policy.
+Open \`reader.html\` on a static HTTPS host to try the interface. The browser version only fetches feeds with a compatible CORS policy. In a native Android wrapper, the built-in CapacitorHttp patch routes `fetch` via the device HTTP stack.
 
 ## Android (planned wrapper)
-This development version includes a Capacitor configuration and scripts. It is **not a built or tested APK**. Validate the Capacitor dependencies in a Node environment and, for native HTTP, use CapacitorHttp exposed by Capacitor's built-in API (not a separate @capacitor/http package). Android builds require Android SDK and Android Studio.
+This development version includes a Capacitor configuration and scripts. It is **not a built or tested APK**. Validate the Capacitor dependencies in a Node environment and the built-in CapacitorHttp native `fetch` patch (`plugins.CapacitorHttp.enabled=true`). This avoids importing a non-existent separate `@capacitor/http` package. Android builds require Android SDK and Android Studio.
 
 The repository does not contain local feeds or any MIOLAB-specific keywords: make those settings on-device in the Settings dialog.
 
