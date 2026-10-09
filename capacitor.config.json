@@ -5,5 +5,9 @@
   "server": {
     "androidScheme": "https"
   },
-  "plugins": {}
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
 }
