@@ -236,6 +236,13 @@
     const issue=mk('button','action subtle small','この紙面を保存');
     issue.onclick=saveIssue; if(state.tab==='saved')issue.hidden=true;
     header.append(issue);area.append(header);
+    const numbers=mk('div','quick-metrics');
+    const unread=state.articles.filter(a=>!a.read).length;
+    for(const [name,value] of [['収集記事',state.articles.length],['未読',unread],['保存',state.articles.filter(a=>a.saved).length]]) {
+      const item=mk('div','metric');
+      item.append(mk('strong','',value),mk('span','',name));numbers.append(item);
+    }
+    area.append(numbers);
     if(state.errors.length){
       const note=mk('div','notice error');
       note.append(mk('strong','',state.errors.length+'件の取得エラー'),mk('div','',state.errors.join(' / ')));
@@ -414,6 +421,13 @@
     $id('exportBtn').onclick=()=>exportBackup().catch(e=>flash(errorMessage(e)));
     $id('importFile').onchange=(e)=>{importBackup(e.target.files[0]).catch(err=>flash(errorMessage(err)));e.target.value='';};
     $id('printBtn').onclick=()=>window.print();
+    document.addEventListener('visibilitychange',()=>{
+      if(!document.hidden && !state.busy && currentProfile()?.autoCollect &&
+        state.sources.some(s=>s.profileId===state.profileId)) {
+        const age=state.lastRun?.time?Date.now()-new Date(state.lastRun.time).getTime():Infinity;
+        if(age>6*3600000)refreshData().catch(console.warn);
+      }
+    });
     document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
     const profile=currentProfile();
     const run=state.lastRun?.time?Date.now()-new Date(state.lastRun.time).getTime():Infinity;
