@@ -1,0 +1,9 @@
+{
+  "appId": "app.mydailypaper.reader",
+  "appName": "MY DAILY PAPER",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {}
+}
