@@ -95,7 +95,7 @@
       const url=normalizedURL(link);
       const summary=cleanHTML(nodeText(n,['description','summary','encoded','content']));
       const dateValue=nodeText(n,['pubDate','published','updated','date']);
-      const date=new Date(dateValue);
+      const date=dateValue?new Date(dateValue):new Date(NaN);
       return {id:hash(src.profileId+'|'+url),profileId:src.profileId,sourceId:src.id,sourceName:src.name,
         section:src.section||'ニュース',title,url,summary,
         publishedAt:Number.isNaN(date.getTime())?'':date.toISOString(),
@@ -109,19 +109,22 @@
     return (!inc.length || inc.some(t=>haystack.includes(t))) && !exc.some(t=>haystack.includes(t));
   }
   async function retrieveFeed(url) {
-    const http=window.Capacitor?.Plugins?.CapacitorHttp;
-    if(window.Capacitor?.isNativePlatform?.() && http?.get) {
-      const response=await http.get({url,headers:{Accept:'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'},
-        connectTimeout:12000,readTimeout:16000,responseType:'text'});
-      if(response.status<200 || response.status>=300) throw Error('HTTP '+response.status);
-      return typeof response.data==='string'?response.data:JSON.stringify(response.data);
-    }
-    const ctrl=new AbortController(), timeout=setTimeout(()=>ctrl.abort(),16000);
+    // CapacitorHttp's native fetch patch is enabled only in Android's capacitor config.
+    // Browser/PWA fetch remains subject to the feed provider's CORS policy.
+    // Never proxy personal feed URLs through GitHub.
+    const ctrl = new AbortController(), timeout = setTimeout(() => ctrl.abort(), 16000);
     try {
-      const res=await fetch(url,{signal:ctrl.signal,cache:'no-store',credentials:'omit'});
+      const res = await fetch(url, {
+        signal:ctrl.signal,cache:'no-store',credentials:'omit',
+        headers:{Accept:'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'}
+      });
       if(!res.ok) throw Error('HTTP '+res.status);
-      return await res.text();
-    }finally{clearTimeout(timeout);}
+      const size=Number(res.headers.get('content-length')||0);
+      if(size>3*1024*1024) throw Error('RSSの容量が上限を超えています');
+      const xml=await res.text();
+      if(xml.length>3*1024*1024)throw Error('RSSの容量が上限を超えています');
+      return xml;
+    } finally {clearTimeout(timeout);}
   }
   async function refreshData() {
     if(state.busy)return;
@@ -131,7 +134,9 @@
     if(!sources.length){flash('設定から公式RSS/Atomの情報源を追加してください');openSettings();return;}
     state.busy=true;state.errors=[];setStatus('収集中…','wait');render();
     let added=0,success=0;
-    const old=await all('articles');
+    let old;
+    try {old=await all('articles');}
+    catch(e){state.busy=false;setStatus('保存領域エラー','bad');flash(errorMessage(e));return;}
     const byId=new Map(old.map(a=>[a.id,a]));
     for(const source of sources) {
       try {
@@ -199,8 +204,8 @@
     const node=mk(top?'section':'article',top?'headline':'story');
     const label=mk('div','eyebrow',a.section+' / '+(top?'TOP STORY':'OFFICIAL SOURCE'));
     const headline=mk(top?'h3':'h3');
-    const link=mk('a','',a.title);link.href=a.url;link.target='_blank';link.rel='noopener noreferrer';
-    link.addEventListener('click',async()=>{a.read=true;await put('articles',a);});
+    const link=mk('a','',a.title);link.href=normalizedURL(a.url)||'#';link.target='_blank';link.rel='noopener noreferrer';
+    link.addEventListener('click',(event)=>{if(!normalizedURL(a.url)){event.preventDefault();flash('安全な記事URLではありません');return;} a.read=true;put('articles',a).catch(console.warn);});
     headline.append(link);
     node.append(label,headline);
     if(a.summary) node.append(mk('p','',a.summary));
