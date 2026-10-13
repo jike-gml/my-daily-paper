@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:33:13.383424Z",
+  "generated_at": "2026-10-13T10:25:30.346023Z",
   "category": "technology",
   "sources": [
     {
@@ -13,7 +13,25 @@
   ],
   "items": [
     {
-      "title": "Google Fitbit Edge が新登場: これまでで最もスマートなフィットネス トラッカー",
+      "title": "NVIDIA Lands in Europe for GTC Berlin",
+      "summary": "NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.",
+      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "published_at": "2026-10-13T05:13:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments […]",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "published_at": "2026-10-13T05:00:31Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "​新製品 Google Fitbit Edge​ 登場、これまでで最もスマートなフィットネス トラッカー",
       "summary": "Google Fitbit Edge が並んでいる画像",
       "url": "https://blog.google/intl/ja-jp/products/devices-services/google-fitbit-edge/",
       "published_at": "2026-10-12T22:00:00Z",
@@ -173,24 +191,6 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "Gboard チームからの新しいキーボードのご提案 2026",
-      "summary": "キーボードくるくるバージョンを組み立てている作業台の写真",
-      "url": "https://blog.google/intl/ja-jp/products/android-chrome-play/gboard-2026/",
-      "published_at": "2026-10-01T10:01:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Gemini 4 Argon：フロンティア知能の新時代",
-      "summary": "現代的な編集ブランディングと「Gemini 4 Argon」というテキストをあしらった、スタイリッシュなプロモーションブログのキーアートグラフィック",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini4argon/",
-      "published_at": "2026-10-01T05:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
     }
   ],
   "errors": []
