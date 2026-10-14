@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:35:59.636840Z",
+  "generated_at": "2026-10-14T23:53:41.191710Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+      "summary": "News Summary: NVIDIA introduces cuPotential, a new NVIDIA CUDA-X library developers can use to build AI agents that simulate how atoms and molecules interact, accelerating already GPU-optimized workflows by an additional 2-3x in early-access testing. NanoVDB, an open source library for working with 3D data, accelerates chipmaking simulation for AI-defined fabs, helping Lam Research achieve 30x faster simulation. NVID",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+      "published_at": "2026-10-14T16:10:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Gemini 4 Argon が Gemini アプリに登場",
       "summary": "最先端の推論能力と、複雑なワークフローにおけるパフォーマンスの向上を実現する Gemini 4 Argon が本日より Gemini アプリでご利用いただけます。Argon は、曖昧な表現を減らして質問に直接答え、不必要な繰り返しを避け、回答全体を通して紋切り型の表現を使いません。また、長時間を要するタスクでは、進捗状況をより頻繁かつ効…",
@@ -182,15 +191,6 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "日本の高齢者をサポートする新しい機能と取り組み：Gemini アプリのシンプルガイドと介護ガイドブックを公開",
-      "summary": "Simple guide Japan hero image",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/simpleguide/",
-      "published_at": "2026-10-06T06:47:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
     }
   ],
   "errors": []
