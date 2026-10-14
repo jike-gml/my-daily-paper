@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:25:30.346023Z",
+  "generated_at": "2026-10-14T00:16:00.361631Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "Gemini 4 Argon：最も困難な課題を解決するために",
+      "summary": "未定",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/introducing-gemini4-argon/",
+      "published_at": "2026-10-13T16:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "published_at": "2026-10-13T12:00:49Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA Lands in Europe for GTC Berlin",
       "summary": "NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.",
@@ -170,24 +188,6 @@
       "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "published_at": "2026-10-01T23:44:13Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Fall Into 25 New Games on GeForce NOW This October",
-      "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is […]",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
-      "published_at": "2026-10-01T13:00:54Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "summary": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "published_at": "2026-10-01T13:00:49Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
