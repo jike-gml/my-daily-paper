@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:11:24.260334Z",
+  "generated_at": "2026-10-15T23:39:32.160405Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,60 @@
     }
   ],
   "items": [
+    {
+      "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+      "summary": "Volvo Cars today announced it is expanding its partnership with NVIDIA to unlock new levels of safety in automated driving technology in future cars from Volvo, building on the companies’ decade-long collaboration. Guided by Volvo Cars’ pioneering safety knowledge and powered by the NVIDIA Hyperion sensor and compute architecture, the technology will enable future Volvo cars to safely navigate complex real-world envi",
+      "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+      "published_at": "2026-10-15T17:30:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and […]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "published_at": "2026-10-15T17:00:23Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+      "summary": "News Summary: Adobe is expanding its collaboration with NVIDIA to optimize its flagship tools including Adobe Photoshop, Premiere, Substance 3D, Frame.io and Brand Concierge, delivering faster AI-powered creation, production and personalization. Adobe is bringing the power of the NVIDIA RTX Spark superchip to its agentic creative applications Photoshop, Premiere and Substance 3D. Optimized to take full advantage of R",
+      "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+      "published_at": "2026-10-15T17:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized […]",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "published_at": "2026-10-15T15:00:24Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release, or let the bolts […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "published_at": "2026-10-15T13:00:59Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: […]",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "published_at": "2026-10-15T10:00:12Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
       "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway […]",
@@ -137,60 +191,6 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "Google マップで最高のグルメ体験を楽しむ 3 つの方法",
-      "summary": "スマホ画面にハンバーガーショップのイラストが書かれた画像",
-      "url": "https://blog.google/intl/ja-jp/feed/google-maps-restaurant-tips-tricks/",
-      "published_at": "2026-10-08T21:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Google マップ から世界 10 都市の最新グルメトレンドとファンのお気に入りリストをご紹介",
-      "summary": "Google マップのロゴと地図のイラスト",
-      "url": "https://blog.google/intl/ja-jp/products/explore-get-answers/google-maps-fan-favorite-dining-list/",
-      "published_at": "2026-10-08T21:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years",
-      "summary": "News Summary: NVIDIA announces commitments valued at $1 billion to advance U.S. science over the next five years, at a Washington event convening U.S. officials, industry leaders and members of the science community. This builds on longstanding collaboration between NVIDIA and national labs, spanning two decades. NVIDIA today announced commitments valued at $1 billion to build out the United States’ capacity for supe",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
-      "published_at": "2026-10-08T14:31:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "published_at": "2026-10-08T13:00:46Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents",
-      "summary": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "published_at": "2026-10-07T18:45:28Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Google Pixel の認定整備済品を日本で販売開始",
-      "summary": "Google Pixelの認定整備済製品を紹介するコラージュ画像。",
-      "url": "https://blog.google/intl/ja-jp/products/devices-services/refurbished-pixel-phones-google-store/",
-      "published_at": "2026-10-07T08:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
     }
   ],
   "errors": []
