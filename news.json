@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T08:04:15.251156Z",
+  "generated_at": "2026-10-16T23:32:21.735782Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+      "summary": "News Summary: NVIDIA RTX Spark laptops are available today from ASUS, Dell, HP, Lenovo, Microsoft and MSI — with additional systems to follow — bringing RTX acceleration and NVIDIA’s full-stack AI platform to slim, premium Windows PCs for creation, gaming and local AI. RTX Spark delivers up to 1 petaflop of AI compute and up to 128GB of unified memory — enabling AI developers, creators and gamers to run frontier AI m",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "published_at": "2026-10-16T12:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
       "summary": "News Summary: Mercedes-Benz and NVIDIA will extend their partnership to jointly develop the next generation of driver assistance and automated driving systems. The collaboration combines Mercedes-Benz automotive engineering and MB.OS with the NVIDIA Hyperion compute and sensor architecture, Alpamayo Stack software and Halos safety system to accelerate the development of automated vehicles. Mercedes-Benz and NVIDIA to",
@@ -179,15 +188,6 @@
       "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
       "published_at": "2026-10-12T15:00:25Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
-      "summary": "News Summary: Ultra-Dense Small Form Factor Pluggable (USFP) is designed to be the first module to support 400Gb/s-per-lane electrical signals, enabling capacity up to 12.8Tb/s so AI factory builders can scale Ethernet AI fabrics, while extending a proven deployment model across multiple generations of data center networks. USFP delivers 4x the bandwidth density and 1.3x the power efficiency of 200Gb/s-per-lane optic",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
-      "published_at": "2026-10-12T15:00:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
