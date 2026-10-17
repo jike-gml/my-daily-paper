@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T07:41:46.528548Z",
+  "generated_at": "2026-10-17T23:05:10.849325Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "published_at": "2026-10-17T21:00:13Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
       "summary": "News Summary: NVIDIA RTX Spark laptops are available today from ASUS, Dell, HP, Lenovo, Microsoft and MSI — with additional systems to follow — bringing RTX acceleration and NVIDIA’s full-stack AI platform to slim, premium Windows PCs for creation, gaming and local AI. RTX Spark delivers up to 1 petaflop of AI compute and up to 128GB of unified memory — enabling AI developers, creators and gamers to run frontier AI m",
@@ -182,15 +191,6 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
-    },
-    {
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
-      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "published_at": "2026-10-12T15:00:25Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
     }
   ],
   "errors": []
