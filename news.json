@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:17:22.466799Z",
+  "generated_at": "2026-10-20T08:25:06.276638Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "Android のマイナンバーカード、本日より提供開始。日常生活での本人確認をよりスマートに",
+      "summary": "Android のマイナンバーカードの利用イメージ",
+      "url": "https://blog.google/intl/ja-jp/products/android-chrome-play/mynumbercard-on-android-launch/",
+      "published_at": "2026-10-20T09:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some […]",
+      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "published_at": "2026-10-20T05:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
       "summary": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive […]",
@@ -170,24 +188,6 @@
       "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]",
       "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
       "published_at": "2026-10-14T06:00:28Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Gemini 4 Argon：最も困難な課題を解決するために",
-      "summary": "未定",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/introducing-gemini4-argon/",
-      "published_at": "2026-10-13T16:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […]",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "published_at": "2026-10-13T12:00:49Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
