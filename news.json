@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:50:02.612102Z",
+  "generated_at": "2026-10-21T08:28:04.430057Z",
   "category": "technology",
   "sources": [
     {
@@ -74,6 +74,15 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
+    },
+    {
+      "title": "Google Playの新機能：つくる、見つける、遊ぶ体験がさらに拡大",
+      "summary": "Discover more of what you love with Google Play と書かれたイメージ図",
+      "url": "https://blog.google/intl/ja-jp/products/android-chrome-play/google-play-updates-october-2026/",
+      "published_at": "2026-10-16T09:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
     },
     {
       "title": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
@@ -179,15 +188,6 @@
       "summary": "News Summary: NVIDIA announces a compute donation valued at $250 million over five years to support U.K. agentic safety and security research. The program will support the wider U.K. research community, with a proportion of the commitment supporting BOLD, SOFAIR and Imperial College London across fundamental agentic foundation models and robotics safety. Compute access will be delivered through U.K.-based NVIDIA Clou",
       "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
       "published_at": "2026-10-14T06:01:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]",
-      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "published_at": "2026-10-14T06:00:28Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
