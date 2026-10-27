@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:23:12.451910Z",
+  "generated_at": "2026-10-27T08:52:12.681012Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+      "summary": "News Summary: NVIDIA and Meta will expand their partnership on Muse and the Muse family of models, reflecting popular demand for AI agents. The companies are also considering other technological collaborations, including NVIDIA OpenShell Reference Architecture to strengthen agency security and NVIDIA Sentry for monitoring, structured, unstructured and graph data processing. Meta to expand NVIDIA Vera Rubin and Vera C",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+      "published_at": "2026-10-27T05:52:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe […]",
@@ -179,15 +188,6 @@
       "summary": "News Summary: NVIDIA and the UW Medicine Institute for Protein Design debut RFD4-Proteina, a new open model that combines programmable protein design with search capabilities, unlocking new frontiers in biology. Siemens Healthineers is advancing the next generation of adaptive radiotherapy, using NVIDIA intelligence to increase access to life-saving cancer care with agentic co-planning, patient-specific simulation an",
       "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
       "published_at": "2026-10-21T10:13:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA, Nokia and Leading Telecom Operators Turn Networks Into Distributed Intelligence Platforms",
-      "summary": "News Summary: Leading global telecom operators are expanding NVIDIA-powered computing across their networks to deliver advanced services closer to people and businesses, improve wireless experience and automate network operations. T-Mobile completes the world’s first AI-RAN call on a commercial network, while BT, Deutsche Telekom and Elisa announce AI-RAN pilots on live networks using Nokia’s CUDA-accelerated anyRAN ",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
-      "published_at": "2026-10-21T10:11:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
