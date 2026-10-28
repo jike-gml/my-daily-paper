@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:52:12.681012Z",
+  "generated_at": "2026-10-28T00:28:23.559024Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+      "summary": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI) Superclusters with NVIDIA Vera Rubin NVL72 systems to multi-gigawatt scale, supporting growing customer demand for AI training, inference and agentic applications. Oracle and NVIDIA also expanded their AI infrastructure collaboration with the general availability of NVIDIA Vera Rubin NVL72 and NVIDIA Vera CPUs on OCI. The expanded col",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+      "published_at": "2026-10-27T16:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in […]",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "published_at": "2026-10-27T15:00:20Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
       "summary": "News Summary: NVIDIA and Meta will expand their partnership on Muse and the Muse family of models, reflecting popular demand for AI agents. The companies are also considering other technological collaborations, including NVIDIA OpenShell Reference Architecture to strengthen agency security and NVIDIA Sentry for monitoring, structured, unstructured and graph data processing. Meta to expand NVIDIA Vera Rubin and Vera C",
@@ -170,24 +188,6 @@
       "summary": "News Summary: Agile Robots announces Agile ONE SN , a humanoid reference platform built on NVIDIA Isaac GR00T and NVIDIA Jetson Thor with planned integration of the NVIDIA Halos safety stack, giving developers and researchers a complete platform for frontier humanoid development and validation. NVIDIA Isaac platform adds new Isaac OS runtime, Isaac Lab 3.0 for robot learning and open source reference workflows that c",
       "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
       "published_at": "2026-10-21T10:20:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
-      "summary": "News Summary: Bolt with Lucid, Mercedes-Benz, Volkswagen Commercial Vehicles and Einride are showcasing selected autonomous-mobility use cases on the NVIDIA Hyperion computing platform, demonstrating potential applications for level 3 and level 4 vehicles as well as future robotaxi fleets, with Volvo Cars adopting Hyperion and NVIDIA Alpamayo Stack for safe automated driving. NVIDIA introduces Halos SAFE, a new frame",
-      "url": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
-      "published_at": "2026-10-21T10:14:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
-      "summary": "News Summary: NVIDIA and the UW Medicine Institute for Protein Design debut RFD4-Proteina, a new open model that combines programmable protein design with search capabilities, unlocking new frontiers in biology. Siemens Healthineers is advancing the next generation of adaptive radiotherapy, using NVIDIA intelligence to increase access to life-saving cancer care with agentic co-planning, patient-specific simulation an",
-      "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
-      "published_at": "2026-10-21T10:13:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
