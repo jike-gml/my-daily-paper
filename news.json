@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:48:08.291399Z",
+  "generated_at": "2026-10-30T00:53:30.473746Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "summary": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+      "published_at": "2026-10-29T13:00:16Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
       "summary": "NVIDIA will host a conference call on Tuesday, November 17, at 2 p.m. PT (5 p.m. ET) to discuss its financial results for the third quarter of fiscal year 2027, which ended October 25, 2026. The call will be webcast live (in listen-only mode) on investor.nvidia.com . The company’s prepared remarks will be followed by a Q&A session, which will be limited to questions from financial analysts and institutional investors",
@@ -179,15 +188,6 @@
       "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in […]",
       "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
       "published_at": "2026-10-21T10:30:40Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "summary": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations […]",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "published_at": "2026-10-21T10:30:25Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
