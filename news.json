@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:53:12.347144Z",
+  "generated_at": "2026-11-03T10:43:06.229183Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments […]",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "published_at": "2026-11-03T07:00:12Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "XREAL AURA：動画から、ゲーム、仕事まで、どこでも楽しめる有線 XR グラス",
       "summary": "XREAL AURA",
@@ -179,15 +188,6 @@
       "summary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demandin",
       "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
       "published_at": "2026-10-21T10:45:17Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
-      "summary": "News Summary: Substrate agreements with IBIDEN, Samsung Electro-Mechanics and Unimicron Technology Corporation will, in aggregate, drive a 2.5x increase in capacity over the next three years. Amkor plans to increase its advanced packaging capacity by more than 300% by the end of 2028. KYEC will build new facilities in the U.S., supported by a $1.1 billion capacity reservation advance from NVIDIA. SPIL is targeting to",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
-      "published_at": "2026-10-21T10:33:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
