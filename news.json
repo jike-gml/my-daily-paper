@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:42:35.540882Z",
+  "generated_at": "2026-11-07T00:52:44.593558Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "published_at": "2026-11-06T16:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Google 検索 の AI モードの新機能で、あらゆるタスクをよりスムーズに",
       "summary": "新機能を使って予約をとるスマホの画面",
@@ -179,15 +188,6 @@
       "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF […]",
       "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
       "published_at": "2026-10-22T05:00:56Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open […]",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "published_at": "2026-10-22T05:00:27Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
