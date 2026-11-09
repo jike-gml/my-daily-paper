@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T00:48:25.686209Z",
+  "generated_at": "2026-11-09T11:18:37.150048Z",
   "category": "technology",
   "sources": [
     {
@@ -13,6 +13,60 @@
   ],
   "items": [
     {
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with […]",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "published_at": "2026-11-09T08:00:53Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Eng",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "published_at": "2026-11-09T05:00:40Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "published_at": "2026-11-09T05:00:39Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes […]",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "published_at": "2026-11-09T05:00:04Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "summary": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing […]",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "published_at": "2026-11-09T05:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+      "summary": "News Summary: Rebellions plans to adopt NVIDIA NVLink Fusion to connect its next-generation R200 neural processing units to NVIDIA’s open infrastructure platform for rack-scale inference. SK Telecom plans to deploy these systems in its AI data center to support its vision for full-stack sovereign AI spanning infrastructure, proprietary models and public-facing services, including those under Korea’s “AI for All” proj",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "published_at": "2026-11-09T05:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
       "title": "A Message to Our Company",
       "summary": "I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism t",
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
@@ -22,7 +76,7 @@
       "language": "en"
     },
     {
-      "title": "Statement from NVIDIA Board of Directors",
+      "title": "Statement From NVIDIA Board of Directors",
       "summary": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While",
       "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
       "published_at": "2026-11-08T20:00:00Z",
@@ -134,60 +188,6 @@
       "summary": "NVIDIA will host a conference call on Tuesday, November 17, at 2 p.m. PT (5 p.m. ET) to discuss its financial results for the third quarter of fiscal year 2027, which ended October 25, 2026. The call will be webcast live (in listen-only mode) on investor.nvidia.com . The company’s prepared remarks will be followed by a Q&A session, which will be limited to questions from financial analysts and institutional investors",
       "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
       "published_at": "2026-10-28T21:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified […]",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "published_at": "2026-10-28T15:00:46Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
-      "summary": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI) Superclusters with NVIDIA Vera Rubin NVL72 systems to multi-gigawatt scale, supporting growing customer demand for AI training, inference and agentic applications. Oracle and NVIDIA also expanded their AI infrastructure collaboration with the general availability of NVIDIA Vera Rubin NVL72 and NVIDIA Vera CPUs on OCI. The expanded col",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
-      "published_at": "2026-10-27T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-      "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in […]",
-      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-      "published_at": "2026-10-27T15:00:20Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
-      "summary": "News Summary: NVIDIA and Meta will expand their partnership on Muse and the Muse family of models, reflecting popular demand for AI agents. The companies are also considering other technological collaborations, including NVIDIA OpenShell Reference Architecture to strengthen agency security and NVIDIA Sentry for monitoring, structured, unstructured and graph data processing. Meta to expand NVIDIA Vera Rubin and Vera C",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
-      "published_at": "2026-10-27T05:52:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe […]",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "published_at": "2026-10-23T02:00:13Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast […]",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "published_at": "2026-10-22T15:00:02Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
