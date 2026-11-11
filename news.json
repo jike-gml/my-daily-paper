@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:12:25.175306Z",
+  "generated_at": "2026-11-11T10:42:53.395290Z",
   "category": "technology",
   "sources": [
     {
@@ -29,6 +29,15 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
+    },
+    {
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "published_at": "2026-11-11T03:00:20Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
     },
     {
       "title": "Statement From the Independent Members of the NVIDIA Board",
@@ -179,15 +188,6 @@
       "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions […]",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
       "published_at": "2026-11-05T14:00:34Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor […]",
-      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "published_at": "2026-11-03T16:00:45Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
