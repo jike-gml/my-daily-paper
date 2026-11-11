@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:59:47.453657Z",
+  "generated_at": "2026-11-11T01:12:25.175306Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,42 @@
     }
   ],
   "items": [
+    {
+      "title": "11 月の Pixel Drop：Gemini で毎日のタスクをもっとスマートに。Google Pixel Tag も新発売",
+      "summary": "Pixel Drop の文字とGoogleのGのロゴが書かれた抽象的なイメージ画像",
+      "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
+      "published_at": "2026-11-11T07:06:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "Gemini 4 Carbon の提供を開始",
+      "summary": "gemini 4 carbon hero",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4-carbon/",
+      "published_at": "2026-11-11T05:20:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "Statement From the Independent Members of the NVIDIA Board",
+      "summary": "The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz to conduct a thorough and independent investigation as was announced on Sunday. ]]>",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "published_at": "2026-11-10T19:07:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA […]",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "published_at": "2026-11-10T16:00:03Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
       "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in […]",
@@ -152,42 +188,6 @@
       "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor […]",
       "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
       "published_at": "2026-11-03T16:00:45Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments […]",
-      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "published_at": "2026-11-03T07:00:12Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "XREAL AURA：動画から、ゲーム、仕事まで、どこでも楽しめる有線 XR グラス",
-      "summary": "XREAL AURA",
-      "url": "https://blog.google/intl/ja-jp/products/devices-services/xrealaura/",
-      "published_at": "2026-11-02T15:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents […]",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "published_at": "2026-10-30T15:00:10Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
-      "summary": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, […]",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
-      "published_at": "2026-10-29T13:00:16Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
