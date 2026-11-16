@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T10:41:22.460113Z",
+  "generated_at": "2026-11-16T00:58:35.853128Z",
   "category": "technology",
   "sources": [
     {
@@ -13,6 +13,15 @@
   ],
   "items": [
     {
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai […]",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "published_at": "2026-11-16T00:00:28Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
       "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
       "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI […]",
       "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
@@ -20,6 +29,15 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
+    },
+    {
+      "title": "Gemini 4 Hydrogen を、本日よりすべての人に提供開始",
+      "summary": "炭素の画像に数字の4が周りに描かれている",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4/introducing-gemini-4-hydrogen/",
+      "published_at": "2026-11-12T18:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
     },
     {
       "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
@@ -170,24 +188,6 @@
       "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
       "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "published_at": "2026-11-06T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Google 検索 の AI モードの新機能で、あらゆるタスクをよりスムーズに",
-      "summary": "新機能を使って予約をとるスマホの画面",
-      "url": "https://blog.google/intl/ja-jp/products/explore-get-answers/search_aim_restaurant_booking/",
-      "published_at": "2026-11-06T09:40:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those […]",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "published_at": "2026-11-05T20:00:41Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
