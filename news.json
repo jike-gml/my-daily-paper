@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:45:52.436377Z",
+  "generated_at": "2026-11-17T11:41:03.542220Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
+      "summary": "News Summary Committee to provide oversight over NVIDIA’s national security and global trade compliance programs Committee will retain independent, outside experts to provide legal, national security and trade compliance expertise to support the Committee Director Suzanne Nora Johnson appointed Committee Chair NVIDIA (NASDAQ: NVDA) today announced that the Board of Directors has established the National Security and ",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "published_at": "2026-11-17T10:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
       "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
@@ -179,15 +188,6 @@
       "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
       "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
       "published_at": "2026-11-11T03:00:20Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "Statement From the Independent Members of the NVIDIA Board",
-      "summary": "The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz to conduct a thorough and independent investigation as was announced on Sunday. ]]>",
-      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
-      "published_at": "2026-11-10T19:07:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
