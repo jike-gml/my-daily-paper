@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:41:03.542220Z",
+  "generated_at": "2026-11-18T02:51:32.271406Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,42 @@
     }
   ],
   "items": [
+    {
+      "title": "Google Play ベスト オブ 2026 発表",
+      "summary": "斜めのストライプがあしらわれたゴールドとイエローのプロモーション用グラフィック。そこには「Best of 2026」の文字が描かれ、隣にはマルチカラーの Google Play ロゴがあしらわれた、洗練されたモダンな 3D トロフィーが並んでいます。",
+      "url": "https://blog.google/intl/ja-jp/products/android-chrome-play/best-of-play-awards-2026/",
+      "published_at": "2026-11-18T00:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
+    {
+      "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+      "summary": "News Summary: New agreements with Kinsus and Samsung Electro-Mechanics support additional substrate capacity and expanded production capabilities at existing factories. NVIDIA’s work with Amkor and SPIL expands advanced packaging capacity for current and next-generation accelerated computing platforms. NVIDIA Vera Rubin NVL72 and Vera CPUs began volume shipments in the third quarter, leveraging TSMC’s 5nm, 3nm and Co",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "published_at": "2026-11-17T22:18:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "summary": "Revenue of $115.8 billion, up 103% from a year ago Data Center revenue of $107.6 billion, up 110% from a year ago Vera Rubin NVL72, the most versatile and advanced computing platform ever built, has shipped NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago. For the quarter, GAAP and non-GAAP gross ",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "published_at": "2026-11-17T21:20:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "published_at": "2026-11-17T14:00:10Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
       "summary": "News Summary Committee to provide oversight over NVIDIA’s national security and global trade compliance programs Committee will retain independent, outside experts to provide legal, national security and trade compliance expertise to support the Committee Director Suzanne Nora Johnson appointed Committee Chair NVIDIA (NASDAQ: NVDA) today announced that the Board of Directors has established the National Security and ",
@@ -152,42 +188,6 @@
       "summary": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales […]",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
       "published_at": "2026-11-12T14:00:59Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Announces CEO Transition",
-      "summary": "Jensen Huang Resigns Colette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO Harvey C. Jones Appointed First-Ever Chair of the Board NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately. Colette Kress, current Executive Vice President and Chief Financial Officer",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "published_at": "2026-11-12T13:48:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "11 月の Pixel Drop：Gemini で毎日のタスクをもっとスマートに。Google Pixel Tag も新発売",
-      "summary": "Pixel Drop の文字とGoogleのGのロゴが書かれた抽象的なイメージ画像",
-      "url": "https://blog.google/intl/ja-jp/products/devices-services/november-2026-pixel-drop/",
-      "published_at": "2026-11-11T07:06:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "Gemini 4 Carbon の提供を開始",
-      "summary": "gemini 4 carbon hero",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4-carbon/",
-      "published_at": "2026-11-11T05:20:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
-    },
-    {
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-      "published_at": "2026-11-11T03:00:20Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
