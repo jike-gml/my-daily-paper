@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:28:46.854138Z",
+  "generated_at": "2026-11-19T02:30:47.723429Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "published_at": "2026-11-18T14:00:31Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Google Play ベスト オブ 2026 発表",
       "summary": "斜めのストライプがあしらわれたゴールドとイエローのプロモーション用グラフィック。そこには「Best of 2026」の文字が描かれ、隣にはマルチカラーの Google Play ロゴがあしらわれた、洗練されたモダンな 3D トロフィーが並んでいます。",
@@ -182,15 +191,6 @@
       "source": "Google Japan Blog",
       "category": "technology",
       "language": "ja"
-    },
-    {
-      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
-      "summary": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales […]",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
-      "published_at": "2026-11-12T14:00:59Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
     }
   ],
   "errors": []
