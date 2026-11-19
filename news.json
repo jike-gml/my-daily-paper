@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:30:47.723429Z",
+  "generated_at": "2026-11-19T11:27:54.776159Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,15 @@
     }
   ],
   "items": [
+    {
+      "title": "Gemini 4 Neon を発表",
+      "summary": "ジェミニ4ネオンのヒーローイメージ",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/introducing-gemini-4-neon/",
+      "published_at": "2026-11-18T21:00:00Z",
+      "source": "Google Japan Blog",
+      "category": "technology",
+      "language": "ja"
+    },
     {
       "title": "NVIDIA RTX Spark Compact Desktops Out Now",
       "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
@@ -182,15 +191,6 @@
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
-    },
-    {
-      "title": "Gemini 4 Hydrogen を、本日よりすべての人に提供開始",
-      "summary": "炭素の画像に数字の4が周りに描かれている",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4/introducing-gemini-4-hydrogen/",
-      "published_at": "2026-11-12T18:00:00Z",
-      "source": "Google Japan Blog",
-      "category": "technology",
-      "language": "ja"
     }
   ],
   "errors": []
