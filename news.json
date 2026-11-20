@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:27:54.776159Z",
+  "generated_at": "2026-11-20T02:15:46.421825Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,33 @@
     }
   ],
   "items": [
+    {
+      "title": "NVIDIA Announces Upcoming Event for Financial Community",
+      "summary": "NVIDIA will present at the following event for the financial community: 30th Annual UBS Global Technology and AI Conference Tuesday, Dec. 1, 6:35 a.m. PT Interested parties can listen to the live audio webcast of NVIDIA financial presentations at investor.nvidia.com . Webcast replays are available for 90 days afterward. ]]>",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6929322",
+      "published_at": "2026-11-19T22:00:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "published_at": "2026-11-19T20:00:15Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+      "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, […]",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+      "published_at": "2026-11-19T14:00:12Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "Gemini 4 Neon を発表",
       "summary": "ジェミニ4ネオンのヒーローイメージ",
@@ -161,33 +188,6 @@
       "summary": "News Summary: The NVIDIA Vera CPU rack-scale platform combines NVIDIA processors, NVIDIA Quantum-X800 InfiniBand networking and breakthrough scientific software to boost weather, climate and molecular simulations. DKRZ has selected Vera CPUs for its HLRE-5 supercomputer for climate science. The full Vera CPU platform is coming from Dell Technologies, HPE, Lenovo and Supermicro. NVIDIA today announced the NVIDIA Vera ",
       "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
       "published_at": "2026-11-16T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Introduces Nemotron for Science to Accelerate Discoveries With Agents",
-      "summary": "News Summary: NVIDIA Nemotron for Science brings together the Nemotron 3.5 Super VL model, scientific evaluations, a new open chemistry dataset and recipes to help researchers build domain-specific science agents. LitmusBench v0.2 supports both evaluation and post-training for chemistry reasoning, helping researchers assess model capabilities and adapt models to scientific tasks. NVIDIA DGX Spark and data center infr",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
-      "published_at": "2026-11-16T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai […]",
-      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
-      "published_at": "2026-11-16T00:00:28Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
-      "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI […]",
-      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
-      "published_at": "2026-11-13T13:00:42Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
