@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:14:31.317121Z",
+  "generated_at": "2026-11-24T05:17:22.652642Z",
   "category": "technology",
   "sources": [
     {
@@ -12,6 +12,24 @@
     }
   ],
   "items": [
+    {
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
+      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+      "published_at": "2026-11-23T17:00:08Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
+    {
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+      "summary": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. The Board of Directors voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang’s candor and ability to lead NVIDIA. In the process of reachi",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "published_at": "2026-11-23T13:55:00Z",
+      "source": "NVIDIA Newsroom",
+      "category": "technology",
+      "language": "en"
+    },
     {
       "title": "NVIDIA Announces Upcoming Event for Financial Community",
       "summary": "NVIDIA will present at the following event for the financial community: 30th Annual UBS Global Technology and AI Conference Tuesday, Dec. 1, 6:35 a.m. PT Interested parties can listen to the live audio webcast of NVIDIA financial presentations at investor.nvidia.com . Webcast replays are available for 90 days afterward. ]]>",
@@ -170,24 +188,6 @@
       "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
       "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
       "published_at": "2026-11-16T16:00:01Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Announces Collaboration With IBM and Fermi National Accelerator Laboratory to Launch Quantum-Classical Codesign Platform, Plus Error-Correction Breakthrough to Advance Practical Quantum Computing",
-      "summary": "News Summary: NVIDIA and IBM announce a growing quantum supercomputing collaboration combining NVIDIA accelerated computing and software with IBM quantum computers to advance quantum error-correction research, scientific applications and integration into supercomputing workflows. NVIDIA DGX B200 systems will connect with IBM quantum computers, including those powered by IBM Quantum Nighthawk, the most powerful proces",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
-      "published_at": "2026-11-16T16:00:00Z",
-      "source": "NVIDIA Newsroom",
-      "category": "technology",
-      "language": "en"
-    },
-    {
-      "title": "NVIDIA Expands Vera CPU Platform to Accelerate Scientific Discovery",
-      "summary": "News Summary: The NVIDIA Vera CPU rack-scale platform combines NVIDIA processors, NVIDIA Quantum-X800 InfiniBand networking and breakthrough scientific software to boost weather, climate and molecular simulations. DKRZ has selected Vera CPUs for its HLRE-5 supercomputer for climate science. The full Vera CPU platform is coming from Dell Technologies, HPE, Lenovo and Supermicro. NVIDIA today announced the NVIDIA Vera ",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
-      "published_at": "2026-11-16T16:00:00Z",
       "source": "NVIDIA Newsroom",
       "category": "technology",
       "language": "en"
